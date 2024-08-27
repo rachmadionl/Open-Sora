@@ -8,6 +8,7 @@ diffusers==0.29.2 # for vae
 accelerate>=0.29.2 # for t5
 av>=12.0.0 # for video loading
 numpy<2.0.0
+xformers==0.0.25.post1 --index-url https://download.pytorch.org/whl/cu118
 
 # # [gradio]
 # gradio>=4.26.0
